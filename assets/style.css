@@ -1,0 +1,73 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: plum;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    position: fixed;
+}
+.header p {
+    background-color: blue;
+
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.Biography-of-Otter {
+    background-color: cornflowerblue;
+    display: inline-block;
+    position: relative;
+    margin-top: 300px;
+    width: 675px;
+}
+
+.Photos-of-Otter {
+    background-color: lightblue;
+    width: 675px;
+    text-align: center;
+}
+
+.Sign-up-for-cuddles {
+    background-color: lightpink;
+    width: 675px;
+}
+
+
+form.form-example {
+    display: table;
+}
+
+.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+}
+.footer {
+    background-color: black;
+}
